@@ -10,6 +10,12 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+# Mac
+.DS_Store
+
+# Uebung
+blah.txt
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -37,7 +43,7 @@ ExportedObj/
 *.sln
 *.suo
 *.tmp
-*.user
+*.user  
 *.userprefs
 *.pidb
 *.booproj
