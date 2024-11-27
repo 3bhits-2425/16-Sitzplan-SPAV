@@ -23,13 +23,20 @@ public class AudioMenu : MonoBehaviour
     public void PlayAudio()
     {
         // Spiele die Audio-Source 
-        myAudioSource.Play();
+        
+        Debug.Log("Audio play");
+        FindAnyObjectByType<AudioManager>().Play("Sound1");
+        /*Langform:
+         * AudioManager audioManager = FindAnyObjectByType<AudioManager>();
+         * audioManager.Play("16-my Sound-SPAV");
+        */
     }
 
     public void PauseAudio()
     {
         // Pausiere die Audio-Source
-        myAudioSource.Pause();
+        Debug.Log("Audio paused");
+        FindAnyObjectByType<AudioManager>().Pause("Sound1");
     }
 
     public void StopAudio()
