@@ -9,6 +9,4 @@ lessons learnt:
 
 <<<<<<< HEAD
 lokal geändert!!
-=======
-IN GITHUB GEÄNDERT!!!
->>>>>>> 1b54638c9b35f63099b5cf21ee9efebe4d7d1c01
+
