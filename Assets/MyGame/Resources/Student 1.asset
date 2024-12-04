@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   studentName: Jai Kumar
   eyecolor: {r: 0.4245283, g: 0.2189391, b: 0.2189391, a: 0}
-  studentImage: {fileID: 21300000, guid: fc4826f901ea4584fabd53a5515c49d6, type: 3}
-  studentClip: {fileID: 8300000, guid: ef6e893b89a4b2444acd3f043f4f9161, type: 3}
+  studentImage: {fileID: 21300000, guid: 6886eabb93359854083a2aedbf117c44, type: 3}
+  studentClip: {fileID: 8300000, guid: 2c2b62e0bced98c4a883bb93f0746df9, type: 3}

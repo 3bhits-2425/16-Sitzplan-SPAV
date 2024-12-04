@@ -20,9 +20,19 @@ public class Manager1 : MonoBehaviour
                 
                 //Tische plazieren
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform);
-            
+
                 //Sessel plazieren
-                
+                Transform pos1 = table.transform.Find("pos1");
+                Transform pos2 = table.transform.Find("pos2");
+                if (pos1)
+                {
+                    Instantiate(chairPrefab, pos1.position, pos1.rotation, table.transform);
+                }
+
+                if (pos2)
+                {
+                    Instantiate(chairPrefab, pos2.position, pos2.rotation, table.transform);
+                }
             }
 
             

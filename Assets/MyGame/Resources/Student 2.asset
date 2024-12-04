@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   studentName: Gabriel Wagner
   eyecolor: {r: 0.4245283, g: 0.2189391, b: 0.2189391, a: 0}
-  studentImage: {fileID: 21300000, guid: fc4826f901ea4584fabd53a5515c49d6, type: 3}
-  studentClip: {fileID: 8300000, guid: ef6e893b89a4b2444acd3f043f4f9161, type: 3}
+  studentImage: {fileID: 21300000, guid: ca48ce72ceab652438e9d9063648e7b4, type: 3}
+  studentClip: {fileID: 8300000, guid: 1a070d7e8722b47489152007792d570a, type: 3}
