@@ -22,7 +22,7 @@ public class Manager1 : MonoBehaviour
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform);
             
                 //Sessel plazieren
-                Transform
+                
             }
 
             
