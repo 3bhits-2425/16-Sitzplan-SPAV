@@ -10,3 +10,4 @@ lessons learnt:
 <<<<<<< HEAD
 lokal geändert!!
 
+![Sitzplan](https://github.com/user-attachments/assets/bdd83d13-c320-41e3-bea5-19f8d6b21c3e)
