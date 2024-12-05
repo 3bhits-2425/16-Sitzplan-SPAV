@@ -7,8 +7,8 @@ public class Manager1 : MonoBehaviour
 
     [SerializeField] private TableLayoutData tableLayout; // Ref zu TableLayout ScriptableObject
     [SerializeField] private StudentData[] students;
-    [SerializeField] private GameObject tablePrefab; //Prefab für Tisch
-    [SerializeField] private GameObject chairPrefab; //Prefab für Stuhl
+    [SerializeField] private GameObject tablePrefab; //Prefab fÃ¼r Tisch
+    [SerializeField] private GameObject chairPrefab; //Prefab fÃ¼r Stuhl
     // Start is called before the first frame update
     private void Start()
     {
@@ -22,7 +22,7 @@ public class Manager1 : MonoBehaviour
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform);
 
                 //Sessel plazieren
-                Transform pos1 = table.transform.Find("pos1");
+                Transform pos1 = table.transform;
                 Transform pos2 = table.transform.Find("pos2");
                 if (pos1)
                 {
