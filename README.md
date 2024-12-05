@@ -24,4 +24,4 @@ lessons learnt:
     Wie man Objekte in einer Hierarchie organisiert.
     Wie Variablen in Prefabs für Anpassungen genutzt werden.
     Bevor man anfängt zu arbeiten muss man git pull machen damit man auf dem neusten Stand ist.
-    Nachdem man fetig ist pusht man nochmal alles.
+    Nachdem man fertig ist pusht man nochmal alles.
