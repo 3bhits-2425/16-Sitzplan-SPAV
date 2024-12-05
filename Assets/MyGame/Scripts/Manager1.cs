@@ -9,6 +9,7 @@ public class Manager1 : MonoBehaviour
     [SerializeField] private StudentData[] students;
     [SerializeField] private GameObject tablePrefab; //Prefab für Tisch
     [SerializeField] private GameObject chairPrefab; //Prefab für Stuhl
+    [SerializeField] private GameObject studentPrefab; //Prefab für Student
     // Start is called before the first frame update
     private void Start()
     {
@@ -22,20 +23,32 @@ public class Manager1 : MonoBehaviour
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform);
 
                 //Sessel plazieren
-                Transform pos1 = table.transform;
+                Transform pos1 = table.transform.Find("pos1");
                 Transform pos2 = table.transform.Find("pos2");
-                if (pos1)
+                if (pos1 != null)
                 {
                     Instantiate(chairPrefab, pos1.position, pos1.rotation, table.transform);
                 }
 
-                if (pos2)
+                if (pos2 != null)
                 {
                     Instantiate(chairPrefab, pos2.position, pos2.rotation, table.transform);
                 }
+
+                //Studenten plazieren
+                Transform posstd1 = table.transform.Find("posstd1");
+                Transform posstd2 = table.transform.Find("posstd2");
+                if (posstd1 != null)
+                {
+                    GameObject student = Instantiate(studentPrefab, posstd1.position, posstd1.rotation, table.transform);
+                }
+                if (posstd2 != null)
+                {
+                    GameObject student = Instantiate(studentPrefab, posstd2.position, posstd2.rotation, table.transform);
+                }
             }
 
-            
+
         }
     }
 
