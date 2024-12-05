@@ -16,3 +16,12 @@ lokal geändert
 
 https://github.com/user-attachments/assets/c9a6e1b9-5505-4505-bf50-7cd4dd3e1ab7
 
+lessons learnt:
+
+    Wie man mit Schleifen eine Anordnung von Objekten erstellt.
+    Wie man Prefabs in der Szene platziert.
+    Wie Positionen und Abstände berechnet werden.
+    Wie man Objekte in einer Hierarchie organisiert.
+    Wie Variablen in Prefabs für Anpassungen genutzt werden.
+    Bevor man anfängt zu arbeiten muss man git pull machen damit man auf dem neusten Stand ist.
+    Nachdem man fetig ist pusht man nochmal alles.
