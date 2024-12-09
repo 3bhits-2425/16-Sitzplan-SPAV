@@ -10,6 +10,7 @@ public class StudentData : ScriptableObject
     public Color eyecolor;
     public Sprite studentImage;
     public AudioClip studentClip;
+    public GameObject studentPrefab;
 }
 
     
