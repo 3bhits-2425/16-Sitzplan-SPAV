@@ -54,23 +54,29 @@ public class Manager1 : MonoBehaviour
     {
         if (studentIndex < students.Length)
         {
-            // Hole das Prefab aus dem StudentData-Objekt
             GameObject studentPrefab = students[studentIndex].studentPrefab;
 
+            //Prüfen ob student prefab vorhanden ist
             if (studentPrefab != null)
             {
+                // Studenten instanzieren
                 GameObject student = Instantiate(studentPrefab, position, rotation, parent);
-                student.name = students[studentIndex].studentName; // Setze den Namen des Studenten
+                student.name = students[studentIndex].studentName;
+
+                // Renderer suchen 
+                Renderer renderer = student.GetComponentInChildren<Renderer>();
+                if (renderer != null)
+                {
+                    // Neues Material erstellen und Albedo-Textur setzen
+                    Material newMaterial = new Material(renderer.material);
+                    newMaterial.mainTexture = students[studentIndex].albedoTexture;
+                    renderer.material = newMaterial;
+                }
             }
 
-            studentIndex++; // Gehe zum nächsten Studenten
+            studentIndex++;
         }
-        
     }
 
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
 }

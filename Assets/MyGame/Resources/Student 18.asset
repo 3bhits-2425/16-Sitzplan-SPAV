@@ -17,3 +17,4 @@ MonoBehaviour:
   studentImage: {fileID: 21300000, guid: 20e46090d616c734abac1b86fbcf1db2, type: 3}
   studentClip: {fileID: 8300000, guid: 2880c5e7abc1e9b4a9d4e206665428a9, type: 3}
   studentPrefab: {fileID: 2747509789825950642, guid: 6b7aa0af3c809f44ba1e2281801f1363, type: 3}
+  albedoTexture: {fileID: 2800000, guid: 20e46090d616c734abac1b86fbcf1db2, type: 3}

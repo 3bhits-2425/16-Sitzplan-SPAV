@@ -11,6 +11,7 @@ public class StudentData : ScriptableObject
     public Sprite studentImage;
     public AudioClip studentClip;
     public GameObject studentPrefab;
+    public Texture2D albedoTexture;
 }
 
     
