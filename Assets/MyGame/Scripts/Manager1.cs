@@ -54,6 +54,7 @@ public class Manager1 : MonoBehaviour
     {
         if (studentIndex < students.Length)
         {
+            // Das Prefab des aktuellen Studenten aus dem Array holen
             GameObject studentPrefab = students[studentIndex].studentPrefab;
 
             //Prüfen ob student prefab vorhanden ist
@@ -63,7 +64,7 @@ public class Manager1 : MonoBehaviour
                 GameObject student = Instantiate(studentPrefab, position, rotation, parent);
                 student.name = students[studentIndex].studentName;
 
-                // Renderer suchen 
+                // Renderer suchen / Get Component in Children wird verwendet falls der Renderer nicht direkt auf dem Hauptobjekt liegt
                 Renderer renderer = student.GetComponentInChildren<Renderer>();
                 if (renderer != null)
                 {
