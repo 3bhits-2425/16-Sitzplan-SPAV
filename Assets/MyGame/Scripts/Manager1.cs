@@ -54,7 +54,7 @@ public class Manager1 : MonoBehaviour
     {
         if (studentIndex < students.Length)
         {
-            // Das Prefab des aktuellen Studenten aus dem Array holen
+            // Das Prefab des jetzigen Schüler aus dem Array holen
             GameObject studentPrefab = students[studentIndex].studentPrefab;
 
             //Prüfen ob student prefab vorhanden ist
